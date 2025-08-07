@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS-specific
+.DS_Store
+
+# dotenv
+.env
