@@ -28,7 +28,7 @@ jobs:
         run: docker build -t ml-fastapi-infer-app .
 
       - name: Push Docker image to Docker Hub
-        run: docker push ml-fastapi-infer-app
+        run: docker push meghananetha/ml-fastapi-infer-app
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v2
